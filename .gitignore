@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Generated artifacts (rebuild with database/seed.py and scripts/train_pipeline.py)
+models/*
+!models/.gitkeep
+datasets/raw/
+datasets/pubchem_cache.json
+
+# Logs
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
